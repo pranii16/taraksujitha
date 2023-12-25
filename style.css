@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#anniversary-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 600px;
+    width: 100%;
+}
+
+#anniversary-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+#anniversary-content {
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    background-image: -moz-linear-gradient(white);
+}
+h2{
+    color: orangered;
+    text-align: center;}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+#footer {
+    background-color: #d9534f;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
